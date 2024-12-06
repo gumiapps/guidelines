@@ -148,11 +148,11 @@ git push origin <branch-name>
 
 ### Pull Request Workflow
 
-1.Create a feature branch.
-2.Push changes to the remote.
-3.Open a pull request on the repository.
-4.Request reviews and address feedback.
-5.Merge the pull request once approved.
+1. Create a feature branch.
+2. Push changes to the remote.
+3. Open a pull request on the repository.
+4. Request reviews and address feedback.
+5. Merge the pull request once approved.
 
 ## 7. Stashing and Rebasing
 
@@ -176,9 +176,9 @@ git stash
 
 ## 8. Resolving Merge Conflicts
 
-1.Identify conflicts using git status.
-2.Open conflicting files and resolve issues.
-3.Mark as resolved
+1. Identify conflicts using `git status`.
+2. Open conflicting files and resolve issues.
+3. Mark as resolved.
 
 ```bash
 git add <file>
@@ -218,9 +218,9 @@ git rebase -i HEAD~<number-of-commits>
 
 Follow a consistent pattern.
 
-- Example
-  -feature/add-login
-  -fix/user-authentication
+- Example:
+  - feature/add-login
+  - fix/user-authentication
 
 ### Small, Frequent Commits
 
